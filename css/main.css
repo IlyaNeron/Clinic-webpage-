@@ -446,9 +446,6 @@ ul {list-style:none; padding:0; margin:0;}
    width:300%;
 }
 
-.switch1 {
-  width:100%;
-}
 
 
 .slider1 input[name="switch1"] {
@@ -461,6 +458,7 @@ ul {list-style:none; padding:0; margin:0;}
   text-align: center;
   margin-top: -37px;
   position: absolute;
+  right:0;
 
 
 
