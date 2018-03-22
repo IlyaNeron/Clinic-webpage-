@@ -431,8 +431,8 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:left;
-  margin-top:-235px;
-  margin-left:100px;
+  margin-top:-248px;
+  margin-left:387px;
 }
 
 /*настройка переключени¤ и положени¤ дл¤ правой стрелки*/
@@ -444,8 +444,8 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:right;
-  margin-top:-235px;
-  margin-right:65px;
+  margin-top:-248px;
+  margin-right:360px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменитс¤*/
@@ -493,7 +493,7 @@ label, a{ /*при наведении на стрелки или переклю�
   color:#feeadc;
   font-weight:300;
   margin:0;
-  padding:20px 260px 40px 260px;
+  padding:40px 260px 40px 260px;
 }
 
 .section_carousel {
@@ -501,7 +501,9 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .web-content-slide {
-  padding:10px 0 100px 0;
+  padding:10px 0 80px 0;
+  text-align:center;
+
 }
 
 .web-slide {
