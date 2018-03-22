@@ -84,13 +84,13 @@ ul {list-style:none; padding:0; margin:0;}
            text-decoration: none; 
  } 
  
-  .outer-menu { 
+ .outer-menu { 
            position: relative; 
-           top:3vh; 
-           right: 13vh; 
+           top:2.5vh; 
+           right: 10.1vh; 
            z-index: 1; 
 
- }  
+ } 
  .outer-menu .checkbox-toggle { 
            position: absolute; 
            top: 0; 
@@ -100,6 +100,7 @@ ul {list-style:none; padding:0; margin:0;}
            width: 60px; 
            height: 60px; 
            opacity: 0; 
+           padding-right:100px;
  } 
  .outer-menu .checkbox-toggle:checked + .hamburger > div { 
            -webkit-transform: rotate(135deg); 
@@ -141,11 +142,11 @@ ul {list-style:none; padding:0; margin:0;}
            top: 0; 
            right: 0; 
            z-index: 1; 
-           width: 45px; 
-           height: 45px; 
-           padding: .5em 0.7em; 
+           width: 40px; 
+           height: 40px; 
+           padding: .5em 0.5em; 
            border:2px solid #fff;
-           border-radius:30px;
+           border-radius:19px;
            cursor: pointer; 
            -webkit-transition: box-shadow 0.3s ease; 
            transition: box-shadow 0.3s ease; 
@@ -578,7 +579,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
   z-index:50;
   text-align: center;
   width: 100%;
-  padding:68px 0 26px 0;
+  padding:87px 0 28px 0;
 
 
 }
@@ -683,7 +684,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 
 .about-container {
-  padding:139px 95px 119px 101px;
+  padding:139px 95px 125px 101px;
 }
 
 .about-container h2  {
@@ -788,7 +789,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 
 .right-aside_block {
-  width:130%;
+  width:120%;
 }
 
 .rightblock-news {
@@ -847,4 +848,5 @@ button, [type="button"], [type="reset"], [type="submit"] {
   display:flex;
   justify-content:space-between;
 }
+
 
