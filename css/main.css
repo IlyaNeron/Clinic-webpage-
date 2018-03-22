@@ -85,9 +85,9 @@ ul {list-style:none; padding:0; margin:0;}
  } 
  
  .outer-menu { 
-           position: fixed; 
-           top:3.5vh; 
-           right: 0; 
+           position: relative; 
+           top:3vh; 
+           right: 13vh; 
            z-index: 1; 
 
  } 
@@ -100,6 +100,7 @@ ul {list-style:none; padding:0; margin:0;}
            width: 60px; 
            height: 60px; 
            opacity: 0; 
+           padding-right:100px;
  } 
  .outer-menu .checkbox-toggle:checked + .hamburger > div { 
            -webkit-transform: rotate(135deg); 
@@ -141,11 +142,11 @@ ul {list-style:none; padding:0; margin:0;}
            top: 0; 
            right: 0; 
            z-index: 1; 
-           width: 60px; 
-           height: 60px; 
-           padding: .5em 1em; 
-           background: #fa6900; 
-           border-radius: 0 0.12em 0.12em 0; 
+           width: 45px; 
+           height: 45px; 
+           padding: .5em 0.7em; 
+           border:2px solid #fff;
+           border-radius:30px;
            cursor: pointer; 
            -webkit-transition: box-shadow 0.3s ease; 
            transition: box-shadow 0.3s ease; 
@@ -431,7 +432,7 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:left;
-  margin-top:-248px;
+  margin-top:-188px;
   margin-left:387px;
 }
 
@@ -444,7 +445,7 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:right;
-  margin-top:-248px;
+  margin-top:-188px;
   margin-right:360px;
 }
 
@@ -493,7 +494,7 @@ label, a{ /*при наведении на стрелки или переклю�
   color:#feeadc;
   font-weight:300;
   margin:0;
-  padding:40px 260px 40px 260px;
+  padding:40px 260px 0px 260px;
 }
 
 .section_carousel {
@@ -501,7 +502,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .web-content-slide {
-  padding:10px 0 80px 0;
+  padding:10px 0 4px 0;
   text-align:center;
 
 }
