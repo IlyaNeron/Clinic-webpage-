@@ -9,8 +9,9 @@ a {
 }
 
 p {
-  margin: 0 0 16px;
+  margin:0 0 20px;
 }
+
 
 p:last-child {
   margin: 0;
@@ -146,7 +147,7 @@ ul {list-style:none; padding:0; margin:0;}
            height: 40px; 
            padding: .5em 0.5em; 
            border:2px solid #fff;
-           border-radius:18px;
+           border-radius:19px;
            cursor: pointer; 
            -webkit-transition: box-shadow 0.3s ease; 
            transition: box-shadow 0.3s ease; 
@@ -317,7 +318,7 @@ ul {list-style:none; padding:0; margin:0;}
 
 .company-description {
   text-align:center;
-  padding:162px 0 168px 0;
+  padding:161px 0 168px 0;
   line-height:0.6;
 }
 
@@ -361,7 +362,7 @@ ul {list-style:none; padding:0; margin:0;}
 }
 
 .about-us1 {
-  padding:5px 230px 0px 230px;
+  padding:3px 230px 0px 230px;
 }
 
 .content-blocks {
@@ -372,7 +373,7 @@ ul {list-style:none; padding:0; margin:0;}
 
 .content-blocks li {
   display:inline-block;
-  margin:63px 52px 0px 52px;
+  margin:65px 52px 0px 52px;
   width:19%;
 
 }
@@ -395,7 +396,7 @@ ul {list-style:none; padding:0; margin:0;}
 }
 
 .content-blocks ul {
-  padding-bottom:35px;
+  padding-bottom:37px;
 }
 
 .blocks-description  {
@@ -432,8 +433,8 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:left;
-  margin-top:-188px;
-  margin-left:387px;
+  margin-top:-182px;
+  margin-left:402px;
 }
 
 /*настройка переключени¤ и положени¤ дл¤ правой стрелки*/
@@ -445,8 +446,8 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:right;
-  margin-top:-188px;
-  margin-right:360px;
+  margin-top:-182px;
+  margin-right:350px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменитс¤*/
@@ -494,7 +495,8 @@ label, a{ /*при наведении на стрелки или переклю�
   color:#feeadc;
   font-weight:300;
   margin:0;
-  padding:40px 260px 0px 260px;
+  padding:39px 230px 9px 230px;
+  font-size:22px;
 }
 
 .section_carousel {
@@ -502,9 +504,12 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .web-content-slide {
-  padding:10px 0 4px 0;
+  padding:0px 0 0px 0;
   text-align:center;
+}
 
+.web-content-slide img {
+  padding-left:26px;
 }
 
 .web-slide {
@@ -515,56 +520,6 @@ label, a{ /*при наведении на стрелки или переклю�
   margin:0 auto;
 }
 
-.circle-icons {
-  position:absolute;
-  padding:5px;
-  padding-left:14px;
-}
-
-.circle-icons img {
-  width:9px;
-
-}
-
-.circle-icons li {
-  display:flex;
-  display:inline;
-}
-
-.search {
-  border-radius:7px 7px 0 0;
-  background:#535a6c;
-  text-align:right;
-  padding:7px;
-}
-
-.search input {
-  border-radius:8px;
-  width:87%;
-  border:none;
-  padding:0;
-}
-
-input:focus { 
-  outline: none;
-}
-
-button:focus { 
-  outline: none;
-}
-
-
-
-.search img {
-  margin-left:-30px;
-  width:12px;
-}
-button, [type="button"], [type="reset"], [type="submit"] {
-  -webkit-appearance: button;
-  background:none;
-  border:none;
-  padding:0;
-}
 
 
 .slider {
@@ -579,7 +534,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
   z-index:50;
   text-align: center;
   width: 100%;
-  padding:87px 0 28px 0;
+  padding:75px 0 24px 0;
 
 
 }
@@ -664,17 +619,17 @@ button, [type="button"], [type="reset"], [type="submit"] {
   font-size: 26px;
   margin:0;
   margin-top:-18px;
-  padding-top:5px;
+  padding-top:7px;
 }
 
 .text-slide  {
   margin:0 auto;
-  font-size:14px;
-  padding:26px 245px 0 245px;
+  font-size:17px;
+  padding:26px 260px 0 260px;
 }
 
 .slide span {
-  font-size:16px;
+  font-size:22px;
   font-weight:normal;
   margin:0 0 20px 0;
 }
@@ -684,7 +639,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 
 .about-container {
-  padding:139px 95px 125px 101px;
+  padding:120px 60px 105px 101px;
 }
 
 .about-container h2  {
@@ -692,17 +647,18 @@ button, [type="button"], [type="reset"], [type="submit"] {
   color:#fff;
   margin:0;
   line-height:1;
+  padding-top:19px;
 }
 
 .about-container div  {
   color:#feeadc;
   font-weight:300;
-  padding-top:50px;
-  font-size:14px;
+  padding-top:40px;
+  font-size:16px;
 }
 
 .about-container h3  {
-  font-size:20px;
+  font-size:21px;
   color:#feeadc;
   font-weight:300;
   margin:0;
@@ -784,8 +740,11 @@ button, [type="button"], [type="reset"], [type="submit"] {
 .inf-text {
   float:left;
   padding-right:100px;
-  font-weight:600;
-  font-size:16px;
+  font-size:18px;
+}
+
+.inf-text p {
+  margin:4px 0 14px 0;
 }
 
 .right-aside_block {
@@ -793,7 +752,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 
 .rightblock-news {
-  padding:14px 35px 37px 9px;
+  padding:8px 35px 38px 9px;
 
 }
 
@@ -803,23 +762,23 @@ button, [type="button"], [type="reset"], [type="submit"] {
 }
 
 .right-aside_block h2 { 
-  margin-top:85px;
-  margin-left:10px;
+  margin-top: 82px;
+  margin-left: 16px;
+  font-size: 28px;
 }
 
 .rightblock-news article {
-  font-weight:600;
   font-size:14px;
 
 }
 
 .rightblock-news h3 {
-  margin:9px 0 9px 0;
+  margin:9px 0 10px 0;
   font-size:15px;
 }
 
 .rightblock-news article {
-  padding-left:15px;
+  padding-left:19px;
   
 }
 
