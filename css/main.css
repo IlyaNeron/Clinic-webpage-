@@ -87,9 +87,10 @@ ul {list-style:none; padding:0; margin:0;}
  
  .outer-menu { 
            position: relative; 
-           top:2.5vh; 
-           right: 10.1vh; 
+           top:27px; 
+           right: 111px; 
            z-index: 1; 
+
 
  } 
  .outer-menu .checkbox-toggle { 
@@ -349,14 +350,14 @@ ul {list-style:none; padding:0; margin:0;}
 .about-us h2 {
   font-size:37px;
   border-bottom:1px solid #ccc;
-  padding-bottom:15px;
+  padding-bottom:13px;
 
 }
 
 
 .description p {
   text-align:left;
-  padding:0px 20px 22px 50px;
+  padding:0px 20px 22px 34px;
   font-size:22px;
   line-height:1.5;
 }
@@ -373,7 +374,7 @@ ul {list-style:none; padding:0; margin:0;}
 
 .content-blocks li {
   display:inline-block;
-  margin:65px 52px 0px 52px;
+  margin:65px 56px 0px 56px;
   width:19%;
 
 }
@@ -396,7 +397,9 @@ ul {list-style:none; padding:0; margin:0;}
 }
 
 .content-blocks ul {
-  padding-bottom:38px;
+  padding-bottom:37px;
+  display:flex;
+  justify-content:center;
 }
 
 .blocks-description  {
@@ -433,7 +436,7 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:left;
-  margin-top:-182px;
+  margin-top:-168px;
   margin-left:402px;
 }
 
@@ -446,8 +449,8 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:right;
-  margin-top:-182px;
-  margin-right:350px;
+  margin-top:-168px;
+  margin-right:351px;
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменитс¤*/
@@ -504,12 +507,13 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .web-content-slide {
-  padding:0px 0 0px 0;
+  padding:6px 0 0px 0;
   text-align:center;
 }
 
 .web-content-slide img {
   padding-left:26px;
+  margin-bottom:-5px;
 }
 
 .web-slide {
@@ -534,7 +538,7 @@ label, a{ /*при наведении на стрелки или переклю�
   z-index:50;
   text-align: center;
   width: 100%;
-  padding:75px 0 24px 0;
+  padding:73px 0 27px 0;
 }
 
 .switch label {
@@ -545,7 +549,7 @@ label, a{ /*при наведении на стрелки или переклю�
   margin: 0 9px;
   border-radius: 50%;
   background-color: #FFF;
-  border:1px solid #ccc;
+  border:1px solid #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -700,7 +704,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .left-aside_block {
-  padding:92px 42px 40px 101px;
+  padding:92px 42px 15px 101px;
   width:150%;
 
 }
@@ -736,13 +740,14 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .inf-text {
+  line-height:26px;
   float:left;
-  padding-right:100px;
-  font-size:18px;
+  padding-right:80px;
+  font-size:16px;
 }
 
 .inf-text p {
-  margin:4px 0 14px 0;
+  margin:4px 0 27px 0;
 }
 
 .right-aside_block {
@@ -780,11 +785,7 @@ label, a{ /*при наведении на стрелки или переклю�
   
 }
 
-.rightblock-news img:hover {
-  background:#69d2e7;
-  opacity:0.5;
-  border-radius:5px;
-}
+
 
 .rightblock-news a {
   color:#333;
@@ -805,6 +806,8 @@ label, a{ /*при наведении на стрелки или переклю�
   display:flex;
   justify-content:space-between;
 }
+
+
 
 
 
