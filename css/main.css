@@ -433,8 +433,13 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:left;
+<<<<<<< HEAD
   margin-top:-182px;
   margin-left:402px;
+=======
+  margin-top:-188px;
+  margin-left:387px;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
 }
 
 /*настройка переключени¤ и положени¤ дл¤ правой стрелки*/
@@ -446,8 +451,13 @@ ul {list-style:none; padding:0; margin:0;}
   height: 68px;
   width: 68px;
   float:right;
+<<<<<<< HEAD
   margin-top:-182px;
   margin-right:350px;
+=======
+  margin-top:-188px;
+  margin-right:360px;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменитс¤*/
@@ -495,8 +505,12 @@ label, a{ /*при наведении на стрелки или переклю�
   color:#feeadc;
   font-weight:300;
   margin:0;
+<<<<<<< HEAD
   padding:39px 230px 9px 230px;
   font-size:22px;
+=======
+  padding:40px 260px 0px 260px;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
 }
 
 .section_carousel {
@@ -504,7 +518,11 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .web-content-slide {
+<<<<<<< HEAD
   padding:0px 0 0px 0;
+=======
+  padding:10px 0 4px 0;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
   text-align:center;
 }
 
@@ -534,7 +552,11 @@ label, a{ /*при наведении на стрелки или переклю�
   z-index:50;
   text-align: center;
   width: 100%;
+<<<<<<< HEAD
   padding:75px 0 24px 0;
+=======
+  padding:87px 0 28px 0;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
 
 
 }
@@ -639,7 +661,11 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .about-container {
+<<<<<<< HEAD
   padding:120px 60px 105px 101px;
+=======
+  padding:139px 95px 125px 101px;
+>>>>>>> 37600bf5c1931f589da495a636472578d3a683a4
 }
 
 .about-container h2  {
@@ -807,4 +833,5 @@ label, a{ /*при наведении на стрелки или переклю�
   display:flex;
   justify-content:space-between;
 }
+
 
