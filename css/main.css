@@ -29,14 +29,12 @@ ul {list-style:none; padding:0; margin:0;}
 
 
 .wrapper {
-  position: relative;
-  overflow: hidden;
+
 }
 
 .container {
   max-width:1200px;
   margin:0 auto;
-  padding:0;
 }
 
 .hidden {
@@ -52,28 +50,29 @@ ul {list-style:none; padding:0; margin:0;}
   background:#69d2e7;
 }
 
-.company-icon {
+.logo {
   padding:34px 0 0 100px;
   float:left;
 
 }
 
  .flex-center { 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
+
  * { 
-           box-sizing: border-box; 
+  box-sizing: border-box; 
  
  } 
  
@@ -81,238 +80,238 @@ ul {list-style:none; padding:0; margin:0;}
  a:visited, 
  a:hover, 
  a:active { 
-           color: #ffffff; 
-           text-decoration: none; 
+  color: #fff; 
+  text-decoration: none; 
  } 
  
  .outer-menu { 
-           position: relative; 
-           top:27px; 
-           right: 111px; 
-           z-index: 1; 
+  position: relative; 
+  top:27px; 
+  right: 111px; 
+  z-index: 1; 
 
 
  } 
  .outer-menu .checkbox-toggle { 
-           position: absolute; 
-           top: 0; 
-           right: 0; 
-           z-index: 2; 
-           cursor: pointer; 
-           width: 60px; 
-           height: 60px; 
-           opacity: 0; 
-           padding-right:100px;
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  z-index: 2; 
+  cursor: pointer; 
+  width: 60px; 
+  height: 60px; 
+  opacity: 0; 
+  padding-right:100px;
  } 
  .outer-menu .checkbox-toggle:checked + .hamburger > div { 
-           -webkit-transform: rotate(135deg); 
-           -ms-transform: rotate(135deg); 
-           transform: rotate(135deg); 
+  -webkit-transform: rotate(135deg); 
+  -ms-transform: rotate(135deg); 
+  transform: rotate(135deg); 
  } 
  .outer-menu .checkbox-toggle:checked + .hamburger > div:before, 
  .outer-menu .checkbox-toggle:checked + .hamburger > div:after { 
-           top: 0; 
-           -webkit-transform: rotate(90deg); 
-           -ms-transform: rotate(90deg); 
-           transform: rotate(90deg); 
+  top: 0; 
+  -webkit-transform: rotate(90deg); 
+  -ms-transform: rotate(90deg); 
+  transform: rotate(90deg); 
  } 
  .outer-menu .checkbox-toggle:checked + .hamburger > div:after { 
-           opacity: 0; 
+  opacity: 0; 
  } 
  .outer-menu .checkbox-toggle:checked ~ .menu { 
-           pointer-events: auto; 
+  pointer-events: auto; 
  } 
  .outer-menu .checkbox-toggle:checked ~ .menu > div { 
-           width: 100%; 
-           height: 200vw; 
+  width: 100%; 
+  height: 200vw; 
  } 
  .outer-menu .checkbox-toggle:checked ~ .menu > div > div { 
-           opacity: 1; 
-           -webkit-transition: opacity 0.3s ease 0.3s; 
-           transition: opacity 0.3s ease 0.3s; 
+  opacity: 1; 
+  -webkit-transition: opacity 0.3s ease 0.3s; 
+  transition: opacity 0.3s ease 0.3s; 
  } 
  .outer-menu .checkbox-toggle:hover + .hamburger { 
-           box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); 
  } 
  .outer-menu .checkbox-toggle:checked:hover + .hamburger > div { 
-           -webkit-transform: rotate(225deg); 
-           -ms-transform: rotate(225deg); 
-           transform: rotate(225deg); 
+  -webkit-transform: rotate(225deg); 
+  -ms-transform: rotate(225deg); 
+  transform: rotate(225deg); 
  } 
  .outer-menu .hamburger { 
-           position: absolute; 
-           top: 0; 
-           right: 0; 
-           z-index: 1; 
-           width: 40px; 
-           height: 40px; 
-           padding: .5em 0.5em; 
-           border:2px solid #fff;
-           border-radius:19px;
-           cursor: pointer; 
-           -webkit-transition: box-shadow 0.3s ease; 
-           transition: box-shadow 0.3s ease; 
-           -webkit-backface-visibility: hidden; 
-           backface-visibility: hidden; 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  z-index: 1; 
+  width: 40px; 
+  height: 40px; 
+  padding: .5em 0.5em; 
+  border:2px solid #fff;
+  border-radius:19px;
+  cursor: pointer; 
+  -webkit-transition: box-shadow 0.3s ease; 
+   transition: box-shadow 0.3s ease; 
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
  .outer-menu .hamburger > div { 
-           position: relative; 
-           -webkit-box-flex: 0; 
-           -webkit-flex: none; 
-           -ms-flex: none; 
-           flex: none; 
-           width: 100%; 
-           height: 2px; 
-           background: #fefefe; 
-           -webkit-transition: all 0.3s ease; 
-           transition: all 0.3s ease; 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  position: relative; 
+  -webkit-box-flex: 0; 
+  -webkit-flex: none; 
+  -ms-flex: none; 
+  flex: none; 
+  width: 100%; 
+  height: 2px; 
+  background: #fefefe; 
+  -webkit-transition: all 0.3s ease; 
+  transition: all 0.3s ease; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
  .outer-menu .hamburger > div:before, 
  .outer-menu .hamburger > div:after { 
-           content: ''; 
-           position: absolute; 
-           z-index: 1; 
-           top: -10px; 
-           left: 0; 
-           width: 100%; 
-           height: 2px; 
-           background: #fff; 
-           -webkit-transition: all 0.3s ease; 
-           transition: all 0.3s ease; 
+  content: ''; 
+  position: absolute; 
+  z-index: 1; 
+  top: -10px; 
+  left: 0; 
+  width: 100%; 
+  height: 2px; 
+  background: #fff; 
+  -webkit-transition: all 0.3s ease; 
+  transition: all 0.3s ease; 
  } 
  .outer-menu .hamburger > div:after { 
            top: 10px; 
  } 
  .outer-menu .menu { 
-           position: fixed; 
-           top: 0; 
-           left: 0; 
-           width: 100%; 
-           height: 100%; 
-           pointer-events: none; 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  pointer-events: none; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
  .outer-menu .menu > div { 
-           width: 0; 
-           height: 0; 
-           color: #fefefe; 
-           background: #fa6900;  
-           -webkit-transition: all 0.3s ease; 
-           transition: all 0.3s ease; 
-           -webkit-box-flex: 0; 
-           -webkit-flex: none; 
-           -ms-flex: none; 
-           flex: none; 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  width: 0; 
+  height: 0; 
+  color: #fefefe; 
+  background: #fa6900;  
+  -webkit-transition: all 0.3s ease; 
+  transition: all 0.3s ease; 
+  -webkit-box-flex: 0; 
+  -webkit-flex: none; 
+  -ms-flex: none; 
+  flex: none; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
  .outer-menu .menu > div > div { 
-           text-align: center; 
-           max-width: 90vw; 
-           max-height: 100vh; 
-           opacity: 0; 
-           -webkit-transition: opacity 0.3s ease; 
-           transition: opacity 0.3s ease; 
-           overflow-y: auto; 
-           -webkit-box-flex: 0; 
-           -webkit-flex: none; 
-           -ms-flex: none; 
-           flex: none; 
-           display: -webkit-box; 
-           display: -webkit-flex; 
-           display: -ms-flexbox; 
-           display: flex; 
-           -webkit-box-align: center; 
-           -webkit-align-items: center; 
-           -ms-flex-align: center; 
-           align-items: center; 
-           -webkit-box-pack: center; 
-           -webkit-justify-content: center; 
-           -ms-flex-pack: center; 
-           justify-content: center; 
+  text-align: center; 
+  max-width: 90vw; 
+  max-height: 100vh; 
+  opacity: 0; 
+  -webkit-transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease; 
+  overflow-y: auto; 
+  -webkit-box-flex: 0; 
+  -webkit-flex: none; 
+  -ms-flex: none; 
+  flex: none; 
+  display: -webkit-box; 
+  display: -webkit-flex; 
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+  -ms-flex-align: center; 
+  align-items: center; 
+  -webkit-box-pack: center; 
+  -webkit-justify-content: center; 
+  -ms-flex-pack: center; 
+  justify-content: center; 
  } 
  .outer-menu .menu > div > div > ul { 
-           list-style: none; 
-           padding: 0 1em; 
-           margin: 0; 
-           display: block; 
-           max-height: 100vh; 
+  list-style: none; 
+  padding: 0 1em; 
+  margin: 0; 
+  display: block; 
+  max-height: 100vh; 
  } 
  .outer-menu .menu > div > div > ul > li { 
-           padding: 0; 
-           margin: 1em; 
-           font-size: 24px; 
-           display: block; 
+  padding: 0; 
+  margin: 1em; 
+  font-size: 24px; 
+  display: block; 
  } 
  .outer-menu .menu > div > div > ul > li > a { 
-           position: relative; 
-           display: inline; 
-           cursor: pointer; 
-           -webkit-transition: color 0.3s ease; 
-           transition: color 0.3s ease; 
+  position: relative; 
+  display: inline; 
+  cursor: pointer; 
+  -webkit-transition: color 0.3s ease; 
+  transition: color 0.3s ease; 
  } 
  .outer-menu .menu > div > div > ul > li > a:hover { 
-           color: #e5e5e5; 
+  color: #e5e5e5; 
  } 
  .outer-menu .menu > div > div > ul > li > a:hover:after { 
-           width: 100%; 
+  width: 100%; 
  } 
  .outer-menu .menu > div > div > ul > li > a:after { 
-           content: ''; 
-           position: absolute; 
-           z-index: 1; 
-           bottom: -0.15em; 
-           left: 0; 
-           width: 0; 
-           height: 2px; 
-           background: #e5e5e5; 
-           -webkit-transition: width 0.3s ease; 
-           transition: width 0.3s ease; 
+  content: ''; 
+  position: absolute; 
+  z-index: 1; 
+  bottom: -0.15em; 
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background: #e5e5e5; 
+  -webkit-transition: width 0.3s ease; 
+  transition: width 0.3s ease; 
  }
  
  
@@ -374,19 +373,28 @@ ul {list-style:none; padding:0; margin:0;}
 }
 
 .content-blocks li {
-  display:inline-block;
   margin:65px 56px 0px 56px;
   width:19%;
 
 }
 
 
-.content-blocks img {
-  background:#fff;
-  padding:40px;
-  border-radius:10px;
-  width:160px;
-  height:160px;
+.imaga {
+  width: 160px;
+  height: 160px;
+  padding: 40px;
+  background: #fff;
+  margin: 0 14%;
+  border-radius: 10px;
+}
+
+.second-imaga {
+  width: 160px;
+  height: 160px;
+  padding: 40px 0 40px;
+  background: #69d2e7;
+  margin: 0 14%;
+  border-radius: 10px;
 }
 
 .content-blocks .second-image {
@@ -412,27 +420,26 @@ ul {list-style:none; padding:0; margin:0;}
   line-height:1.3;
 }
 
-#slides article{ /*все изображени¤ справа друг от доруга*/
+#slides article{ 
   width: 33.3333%;
 }
 
-#slides .image{ /*устанавливает общий размер блока с изображени¤ми*/
+#slides .image{ 
   width: 300%;
   display:flex;
 }
 
-#overflow{ /*сркывает все, что находитс¤ за пределами этого блока*/
+#overflow{ 
   width: 100%;
   overflow: hidden;
 
 }
 
-/*настройка переключени¤ и положени¤ дл¤ левой стрелки*/
-/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+
 #switch1:checked ~ #controls label:nth-child(3), 
 #switch2:checked ~ #controls label:nth-child(1),
 #switch3:checked ~ #controls label:nth-child(2){
-  background: url(../images/scoba2.png) no-repeat; /*заливка фона картинкой без повторений*/
+  background: url(../images/left-arrow.png) no-repeat; 
   display: block;
   height: 68px;
   width: 68px;
@@ -441,11 +448,11 @@ ul {list-style:none; padding:0; margin:0;}
   margin-left:402px;
 }
 
-/*настройка переключени¤ и положени¤ дл¤ правой стрелки*/
+
 #switch1:checked ~ #controls label:nth-child(2), 
 #switch2:checked ~ #controls label:nth-child(3),
 #switch3:checked ~ #controls label:nth-child(1){
-  background: url(../images/scoba1.png) no-repeat; /*заливка фона картинкой без повторений*/
+  background: url(../images/right-arrow.png) no-repeat; 
   display: block;
   height: 68px;
   width: 68px;
@@ -454,15 +461,15 @@ ul {list-style:none; padding:0; margin:0;}
   margin-right:351px;
 }
 
-label, a{ /*при наведении на стрелки или переключатели - курсор изменитс¤*/
+label, a{ 
   cursor: pointer;
 }
 
-.standart-controls { /*скрывает стандартные инпуты (чекбоксы) на странице*/
+.standart-controls { 
   display:none;
 }
 
-/*позици¤ изображени¤ при активации переключател¤*/
+
 #switch1:checked ~ #slides .image{
   margin-left: 0;
 }
@@ -476,21 +483,21 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 
-#controls{ /*положение блока всех управл¤ющих элементов*/
+#controls{ 
   position:relative;
 }
 
 
 
-#slides .image{ /*анимаци¤ пролистывани¤ изображений*/
+#slides .image{ 
   transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
 }
 
-#controls label:hover{ /*прозрачность стрелок при наведении*/
+#controls label:hover{ 
   opacity: 0.6;
 }
 
-#controls label{ /*прозрачность стрелок при отводе курсора*/
+#controls label{ 
   transition: opacity 0.2s ease-out;
 }
 
@@ -807,6 +814,9 @@ label, a{ /*при наведении на стрелки или переклю�
   display:flex;
   justify-content:space-between;
 }
+
+
+
 
 
 
