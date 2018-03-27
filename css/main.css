@@ -123,7 +123,7 @@ ul {list-style:none; padding:0; margin:0;}
            pointer-events: auto; 
  } 
  .outer-menu .checkbox-toggle:checked ~ .menu > div { 
-           width: 100%vw; 
+           width: 100%; 
            height: 200vw; 
  } 
  .outer-menu .checkbox-toggle:checked ~ .menu > div > div { 
@@ -231,8 +231,7 @@ ul {list-style:none; padding:0; margin:0;}
            width: 0; 
            height: 0; 
            color: #fefefe; 
-           background: #fa6900; 
-           border-radius: 50%; 
+           background: #fa6900;  
            -webkit-transition: all 0.3s ease; 
            transition: all 0.3s ease; 
            -webkit-box-flex: 0; 
@@ -315,6 +314,8 @@ ul {list-style:none; padding:0; margin:0;}
            -webkit-transition: width 0.3s ease; 
            transition: width 0.3s ease; 
  }
+ 
+ 
 
 
 .company-description {
@@ -806,6 +807,7 @@ label, a{ /*при наведении на стрелки или переклю�
   display:flex;
   justify-content:space-between;
 }
+
 
 
 
