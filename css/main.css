@@ -612,6 +612,11 @@ label, a{
  
 }
 
+.image-profile:hover {
+  background:#fa6900;
+ 
+}
+
 .slides img:hover {
   background:#fa6900;
 }
