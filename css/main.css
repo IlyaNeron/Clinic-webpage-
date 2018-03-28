@@ -257,7 +257,7 @@ ul {list-style:none; padding:0; margin:0;}
   opacity: 0; 
   -webkit-transition: opacity 0.3s ease; 
   transition: opacity 0.3s ease; 
-  overflow-y: auto; 
+  overflow: hidden; 
   -webkit-box-flex: 0; 
   -webkit-flex: none; 
   -ms-flex: none; 
@@ -290,10 +290,11 @@ ul {list-style:none; padding:0; margin:0;}
  } 
  .outer-menu .menu > div > div > ul > li > a { 
   position: relative; 
-  display: inline; 
+  display: inline-block; 
   cursor: pointer; 
   -webkit-transition: color 0.3s ease; 
   transition: color 0.3s ease; 
+  position:relative;
  } 
  .outer-menu .menu > div > div > ul > li > a:hover { 
   color: #e5e5e5; 
@@ -414,6 +415,8 @@ ul {list-style:none; padding:0; margin:0;}
   background:#fa6900;
 }
 
+
+
 .content-blocks ul {
   padding-bottom:37px;
   display:flex;
@@ -524,7 +527,7 @@ label, a{
 }
 
 .web-content-slide {
-  padding:6px 0 0px 0;
+  padding:2px 0 3px 0;
   text-align:center;
 }
 
@@ -598,12 +601,15 @@ label, a{
   text-align:center;
 }
 
-.slides img {
-  background:#fff;
-  border-radius:50%;
-  padding:42px;
-  margin-top:54px;
-  margin-bottom:31px;
+.image-profile {
+  padding: 40px;
+  background: #fff;
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 54px;
+  margin-bottom: 34px;
+ 
 }
 
 .slides img:hover {
@@ -626,7 +632,6 @@ label, a{
   float: left;
   margin: 0 auto;
   padding: 0;
-
 }
 
 
@@ -643,7 +648,7 @@ label, a{
 
 .text-slide  {
   margin:0 auto;
-  font-size:17px;
+  font-size:14px;
   padding:26px 260px 0 260px;
 }
 
@@ -658,7 +663,7 @@ label, a{
 }
 
 .about-container {
-  padding:120px 60px 105px 101px;
+  padding:120px 60px 120px 101px;
 }
 
 .about-container h2  {
@@ -672,8 +677,9 @@ label, a{
 .about-container div  {
   color:#feeadc;
   font-weight:300;
-  padding-top:40px;
+  padding-top:46px;
   font-size:16px;
+  line-height:19px;
 }
 
 .about-container h3  {
@@ -696,7 +702,7 @@ label, a{
   bottom: 0;
   left: 90.5%;
   width: 100%;
-  background-image: url(../images/after-element.png);
+  background-image: url(../images/sobka.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -739,11 +745,15 @@ label, a{
   border-right:1px solid #333;
 }
 
+.soc-icons li:last-child {
+  border:none;
+}
+
 .soc-icons a {
   display:flex;
   align-items:center;
   justify-content: center;
-  padding:5px;
+  padding: 6px 4px 8px 5px;
 }
 
 .soc-icons li:hover {
@@ -753,11 +763,11 @@ label, a{
 
 .soc-icons  {
   float:left;
-  padding:30px 0 15px 0;
+  padding:28px 0 15px 0;
 }
 
 .inf-text {
-  line-height:26px;
+  line-height:25px;
   float:left;
   padding-right:80px;
   font-size:16px;
@@ -772,13 +782,13 @@ label, a{
 }
 
 .rightblock-news {
-  padding:8px 35px 38px 9px;
+  padding:8px 35px 36px 9px;
 
 }
 
 .rightblock-news li {
   display:flex;
-  padding-top:5px;
+  padding-top:6px;
 }
 
 .right-aside_block h2 { 
@@ -792,10 +802,13 @@ label, a{
 
 }
 
+
 .rightblock-news h3 {
-  margin:9px 0 10px 0;
+  margin:5px 0 13px 0;
   font-size:15px;
 }
+
+
 
 .rightblock-news article {
   padding-left:19px;
@@ -812,17 +825,24 @@ label, a{
   background:#69d2e7;;
 }
 
-.info-people a {
+.info-people span {
   color:#fff;
   font-size:14px;
   padding-right:91px;
 }
 
 .info-people {
-  padding: 21px 10px 25px 98px;
+  padding: 20px 10px 25px 98px;
   display:flex;
   justify-content:space-between;
 }
+
+.info-people a {
+  font-size:14px;
+}
+
+
+
 
 
 
