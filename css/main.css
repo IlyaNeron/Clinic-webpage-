@@ -1,3 +1,4 @@
+  
  body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -31,6 +32,7 @@ ul {list-style:none; padding:0; margin:0;}
 
 
 .wrapper {
+  overflow:hidden;
 
 }
 
@@ -456,10 +458,9 @@ ul {list-style:none; padding:0; margin:0;}
   background: url(../images/left-arrow.png) no-repeat; 
   display: block;
   height: 68px;
-  width: 68px;
+  width: 30px;
   float:left;
-  margin-top:-200px;
-  margin-left:347px;
+  margin-left:39%;
 }
 
 
@@ -469,10 +470,8 @@ ul {list-style:none; padding:0; margin:0;}
   background: url(../images/right-arrow.png) no-repeat; 
   display: block;
   height: 68px;
-  width: 68px;
+  width: 30px;
   float:right;
-  margin-top:-200px;
-  margin-right:327px;
 }
 
 label, a{ 
@@ -498,7 +497,9 @@ label, a{
 
 
 #controls{ 
-  position:relative;
+  position:absolute;
+  width:71%;
+  margin:-17% 0 0 0;
 }
 
 
@@ -536,6 +537,7 @@ label, a{
 .web-content-slide img {
   margin-bottom:-5px;
   width:100%;
+  
 }
 
 .web-slide {
@@ -860,27 +862,28 @@ label, a{
 }
 
 .outer-menu .hamburger {
-  width:80px;
-  height:80px;
+  width:40px;
+  height:40px;
   border-radius:100%;
-  border:4px solid #fff;
-  transform: scale(0.7);
+  border:2px solid #fff;
+  transform: scale(1.3);
 }
 
 .outer-menu .hamburger > div {
-  height:4px;
+  height:2px;
 }
 
 .outer-menu {
   right:20px;
-  top:15px;
+  top:35px;
 }
+
 .outer-menu .hamburger > div:before, .outer-menu .hamburger > div:after {
-  top:-20px;
-  height:4px;
+  top:-10px;
+  height:2px;
 }
 .outer-menu .hamburger > div:after {
-  top:20px;
+  top:10px;
 }
 .about-us {
   padding:0 0 0 0;
@@ -1036,12 +1039,12 @@ label, a{
 
 @media only screen and (max-width : 360px)  {
 .outer-menu .hamburger {
-  transform: scale(0.7);
+  transform: scale(1.3);
 }
 
 .outer-menu {
-  right:-5px;
-  top:15px;
+  right:20px;
+  top:35px;
 }
 
 
@@ -1061,9 +1064,10 @@ label, a{
 
 }
 
-@media only screen and (max-width : 1200px)  {
+@media only screen and (max-width : 1024px)  {
 #controls {
-  display:none;
+  margin:-20% 0 0 0 ;
+  
 }
 
 }
@@ -1115,6 +1119,10 @@ label, a{
   top:35px;
 }
 
+.about-us1 {
+    padding: 3px 180px 0px 180px;
+}
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
@@ -1122,7 +1130,30 @@ label, a{
   padding: 39px 150px 9px 150px;
 }
 
+#controls {
+  margin:-18% 0 0 0 ;
+  
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
